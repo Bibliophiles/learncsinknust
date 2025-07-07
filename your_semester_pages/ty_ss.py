@@ -4,7 +4,6 @@ import pandas as pd
 def render():
     st.title("Third Year - Second Semester 6/8")
     st.write("Welcome to your second semester of third year!")
-    # Add your custom logic here
 
     course_summary = pd.DataFrame({
         "Course Code": ["ACF 256", "CSM 352", "CSM 354", "CSM 358", "CSM 366", "CSM 374", "CSM 376", "CSM 388", "CSM 394"],
